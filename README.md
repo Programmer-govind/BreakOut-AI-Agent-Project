@@ -36,29 +36,25 @@ Follow these steps to set up and run the project:
    pip install -r requirements.txt  
    ```  
 
-4. Here are steps to set up and use a `.env` file for securely managing environment variables in your project. You can include these in your `README.md` under a **Setup Environment Variables** section:
+4. ### **Setup Environment Variables**
 
----
+   Follow these steps to securely manage API keys and other sensitive information using a `.env` file:
 
-### **Setup Environment Variables**
-
-Follow these steps to securely manage API keys and other sensitive information using a `.env` file:
-
-#### 1. **Install Required Library**
+   #### 1. **Install Required Library**
    Use `python-dotenv` to load environment variables from a `.env` file into your Python application:
    ```bash
    pip install python-dotenv
    ```
 
-#### 2. **Create a `.env` File**
-   In the root directory of the project, create a file named `.env`. Add your API keys and other sensitive configurations inside the file:
+   #### 2. **Create a `.env` File**
+   In the root directory of the project, create a file named `.env`. Add your API keys and other sensitive configurations inside    the file:
    ```
    SERP_API_KEY=your_serp_api_key
    GROQ_API_KEY=your_groq_api_key
    GOOGLE_SERVICE_ACCOUNT_FILE=credentials.json
    ```
 
-#### 3. **Use Environment Variables in Your Code**
+   #### 3. **Use Environment Variables in Your Code**
    In your `app.py` file, load the `.env` file and access the variables using the `os` module:
    ```python
    from dotenv import load_dotenv
@@ -72,32 +68,6 @@ Follow these steps to securely manage API keys and other sensitive information u
    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
    GOOGLE_CREDENTIALS_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
    ```
-
-#### 4. **Exclude `.env` from Version Control**
-   Ensure the `.env` file is not pushed to your GitHub repository by adding it to `.gitignore`:
-   ```
-   .env
-   ```
-
-#### 5. **Share the .env File Securely**
-   If collaborating with others, share the `.env` file securely via email or a private sharing service (e.g., Google Drive) without exposing it in the repository.
-
----
-
-### **Example Code**
-```python
-from dotenv import load_dotenv
-import os
-
-# Load the .env file
-load_dotenv()
-
-# Retrieve environment variables
-serp_api_key = os.getenv("SERP_API_KEY")
-groq_api_key = os.getenv("GROQ_API_KEY")
-
-print(f"Using SERP API Key: {serp_api_key}")
-```
 
 ---  
 
