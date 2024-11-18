@@ -146,7 +146,7 @@ To ensure smooth operation, the following are required:
 - Query processing via Groq API
 - Viewing and downloading structured results in a tabular format
 
-**Video Link**: [Watch the 2-Minute Demo](#)
+**Video Link**: [Watch the 2-Minute Demo](https://drive.google.com/file/d/12_S-pj2Ss9vYi8DFzA7UsV60cdloxs2O/view?usp=drive_link)
 
 ---
 
