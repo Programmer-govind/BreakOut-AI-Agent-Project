@@ -22,13 +22,15 @@ Follow these steps to set up and run the project:
 
 1. **Clone the Repository**  
    ```bash  
-   git clone https://github.com/Programmer-govind/Breakout-AI-Agent-Project.git  
+   git clone https://github.com/Programmer-govind/Breakout-AI-Agent-Project.git
+   cd Breakout-AI-Agent-Project
    ```  
 
 2. **Create a Virtual Environment**  
    ```bash  
    python -m venv venv  
-   source venv/bin/activate  # On Windows: venv\Scripts\activate  
+   source venv/bin/activate  # On Windows: cd venv\Scripts\
+   activate 
    ```  
 
 3. **Install Dependencies**  
