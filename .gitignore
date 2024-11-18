@@ -1,3 +1,16 @@
+# Ignore virtual environments
+venv/
+
+# Ignore sensitive files
+credentials.json
+token.pickle
+
+# Ignore compiled files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
