@@ -16,6 +16,10 @@ The **Google Sheets Search Dashboard** simplifies the process of working with la
 
 ---
 
+### **Project Structure**
+![image](https://github.com/user-attachments/assets/a015abb6-7ea1-4de2-b0b7-315d0070fa1e)
+
+
 ## 🛠️ **Setup Instructions**  
 
 Follow these steps to set up and run the project:  
