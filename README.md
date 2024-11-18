@@ -89,6 +89,18 @@ To ensure smooth operation, the following are required:
    ```  
 
 ---
+### **Video Walkthrough**
+
+**Category**: Demonstration of AI Agent Functionality  
+**Description**: This video provides a quick walkthrough of the **Breakout AI Agent Project**, showcasing the following:
+- Uploading CSV files and connecting Google Sheets
+- Performing web searches using SERP API
+- Query processing via Groq API
+- Viewing and downloading structured results in a tabular format
+
+**Video Link**: [Watch the 2-Minute Demo](#)
+
+---
 
 ## ✨ **Optional Features**  
 
