@@ -87,11 +87,11 @@ Follow these steps to set up and run the project:
 ---
 
 ## **Screenshots**
-![Sheet-Function2](https://github.com/user-attachments/assets/2b3ee7f6-07c3-48a3-8013-ac12a7b130ea)
-![Sheet-DashBoard](https://github.com/user-attachments/assets/2c80ff7e-b6d1-4c71-9919-37b387d3d534)
-![download_results](https://github.com/user-attachments/assets/066372a8-4021-40e6-b582-266834165a10)
-![Dashboard2-Function](https://github.com/user-attachments/assets/ee86c1ff-6783-47f5-8f49-3b010c09fc20)
 ![Dashboard1](https://github.com/user-attachments/assets/150bf236-5647-4945-aa4b-e5ae03ed6e41)
+![Sheet-DashBoard](https://github.com/user-attachments/assets/2c80ff7e-b6d1-4c71-9919-37b387d3d534)
+![Dashboard2-Function](https://github.com/user-attachments/assets/ee86c1ff-6783-47f5-8f49-3b010c09fc20)
+![Sheet-Function2](https://github.com/user-attachments/assets/2b3ee7f6-07c3-48a3-8013-ac12a7b130ea)
+![download_results](https://github.com/user-attachments/assets/066372a8-4021-40e6-b582-266834165a10)
 
 
 
@@ -148,14 +148,14 @@ To ensure smooth operation, the following are required:
 ## ✨ **Optional Features**  
 
 ### **1. Enhanced Search with AI**  
-- Incorporates Groq API for intelligent data parsing and query optimization.  
-
-### **2. Result Visualization**  
-- Integrated charts and graphs for better understanding of data trends.  
-
+- Incorporates Groq API for intelligent data parsing and query optimization.
+### **2. Download Locally**
+- Download results in csv format for further processing.
 ### **3. Night Mode**  
 - Switch between light and dark themes for a comfortable viewing experience.
+- Dark Mode:
   ![Dark_Theme](https://github.com/user-attachments/assets/2c80df31-ad06-4e61-8607-f3cdeeff5c95)
+- Light Mode
   ![Light_Theme](https://github.com/user-attachments/assets/ade386d0-b651-46a7-b62a-549c6ad78a42)
 
  
