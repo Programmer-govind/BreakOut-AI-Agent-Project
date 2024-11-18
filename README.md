@@ -22,7 +22,7 @@ Follow these steps to set up and run the project:
 
 1. **Clone the Repository**  
    ```bash  
-   git clone https://github.com/your-username/google-sheets-dashboard.git (https://github.com/Programmer-govind/Breakout-AI-Agent-Project.git)   
+   git clone https://github.com/Programmer-govind/Breakout-AI-Agent-Project.git  
    ```  
 
 2. **Create a Virtual Environment**  
